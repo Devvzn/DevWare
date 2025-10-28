@@ -59,7 +59,7 @@ if placeId == 126509999114328 then
 	print("[Devware] Loading 99 Nights In The Forest...")
 	notify("Devware", "Loading 99 Nights In The Forest…", 6)
 	-- YOU CAN'T BYPASS THE KEY SYSTEM BY USING THE SUBLOADERS BELOW THEY ONLY RUN VIA MAIN LOADER
-	safeLoad("loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/cc32dd2a9321505fba49f84ed375fdc22d8e6238ca3dc03a452c9c8efce2632e/download"))()")
+	safeLoad("loadstring(game:HttpGet("https://raw.githubusercontent.com/Devvzn/99nights/refs/heads/main/main"))()")
 
 elseif placeId == 135155039067698 or placeId == 97241995358432 then
 	print("[Devware] Loading MX World...")

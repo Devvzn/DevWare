@@ -58,8 +58,8 @@ notify("Devware Loader", "Detected: "..gameName, 5)
 if placeId == 126509999114328 then
 	print("[Devware] Loading 99 Nights In The Forest...")
 	notify("Devware", "Loading 99 Nights In The Forest…", 6)
-	-- YOU CAN'T BYPASS THE KEY SYSTEM BY USING THE SUBLOADERS BELOW THEY ONLY RUN VIA MAIN LOADER
-	safeLoad("loadstring(game:HttpGet("https://raw.githubusercontent.com/Devvzn/99nights/refs/heads/main/main"))()")
+_G.__DEVWARE_LOADER__ = "https://raw.githubusercontent.com/Devvzn/DevWare/refs/heads/main/DevMain"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Devvzn/DevWare/main/DevWareCore.lua"))()
 
 elseif placeId == 135155039067698 or placeId == 97241995358432 then
 	print("[Devware] Loading MX World...")

@@ -14,6 +14,7 @@
    Supported:
    • 99 Nights In The Forest
    • MX World (Farm & Normal Map)
+   • Fisch ( Auto Farm and more )
 ----------------------------------------------------------------
    Discord: https://discord.gg/cuYwaQeHT5
 ----------------------------------------------------------------
@@ -64,6 +65,11 @@ elseif placeId == 135155039067698 or placeId == 97241995358432 then
 	print("[Devware] Loading MX World...")
 	notify("Devware", "Loading MX World…", 6)
 	safeLoad("https://raw.githubusercontent.com/Devvzn/mxworld/refs/heads/main/main")
+
+elseif placeId == 131716211654599
+	print("[Devware] Loading Fisch...")
+	notify("Devware", "Loading Fisch…", 6)
+	safeLoad("https://raw.githubusercontent.com/Devvzn/fisch/refs/heads/main/fischmainhub")
 
 else
 	warn("[Devware] No script assigned for:", gameName, "("..tostring(placeId)..")")

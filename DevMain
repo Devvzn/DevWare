@@ -66,7 +66,12 @@ elseif placeId == 135155039067698 or placeId == 97241995358432 then
 	notify("Devware", "Loading MX World…", 6)
 	safeLoad("https://raw.githubusercontent.com/Devvzn/mxworld/refs/heads/main/main")
 
-elseif placeId == 131716211654599 then
+elseif placeId == 131716211654599 
+    or placeId == 106011698424775 
+    or placeId == 70451556031302 
+    or placeId == 72907489978215 
+    or placeId == 16732694052 then
+
 	print("[Devware] Loading Fisch...")
 	notify("Devware", "Loading Fisch…", 6)
 	safeLoad("https://raw.githubusercontent.com/Devvzn/fisch/refs/heads/main/fischmainhub")
